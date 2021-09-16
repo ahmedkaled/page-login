@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("photo.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+  
+}
+.employee {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 47.5%;
+    right: 45.5%;
+    top: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: white ;
+}
+
+.profile {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 50px;
+    right: 60px;
+
+}
+form {
+    background-color: rgba(238, 238, 238, 0.1);
+    width: 33%;
+    height: 50%;
+    padding: 10px;
+    margin: 50px auto;
+    font-family: 'Cairo', sans-serif;
+    border-radius: 10px;
+    box-shadow:0px 0px 8px -5px white;
+    color: white;
+    border: 2px solid #808080;
+}
+.radio {
+    position: relative;
+    left: 20%;
+    color: yellow;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+ 
+h2 {
+    border: 2px solid rgb(202, 209, 175);
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+    font-weight: 700;
+    color:white;
+}
+.box-input {
+    margin: 9%;
+    margin-left: 13%;
+    margin-bottom: 1%;
+}
+div input {
+    padding: 7px;
+    margin: 10px;
+    border-radius: 8px ;
+    border: 2px solid rgba(238, 219, 133, 0.479);
+}
+
+
+label {
+    padding: 5px;
+    font-weight: 400  ;
+    font-size: 16px;
+}
+
+.pass input {
+ margin-left: 13px;
+}
+input::placeholder {
+    font-size: 12px;
+}
+
+.login {
+    text-align: center;
+}
+.login input  {
+    margin-top: 5px;
+    padding: 0;
+    font-size: 15px ;
+    font-family: 'cairo',sans-serif;
+    font-weight: 400;
+    border: 2px solid dimgrey;
+    width: 80px;
+    background-color: #00000099;
+    border-radius: 10px;
+    color: white;
+}
+
+@media screen and (max-width:320px) {
+    form {
+         width: 75%;
+    }
+    .box-input {
+        margin: 3%;
+    }
+    .employee {
+        left: 39.5%;
+    }
+}
+
+@media screen and (min-width:280px) and (max-width:320px) {
+    form {
+        width:88%;
+
+    }
+    .employee {
+        left: 38.5%;
+    }
+    .box-input {
+        margin: 4%;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:745px)  {
+    form {
+      width: 85%;
+    }
+    .employee {
+        left: 40.5%;
+    }
+    .box-input {
+        margin: 8%;
+    }
+}
+
+@media screen and (min-width:440px) and (max-width:755px) {
+    
+    
+}
+
