@@ -112,6 +112,10 @@ input::placeholder {
     .employee {
         left: 39.5%;
     }
+    .radio {
+        left:5%;
+        
+    }
 }
 
 @media screen and (min-width:280px) and (max-width:320px) {
