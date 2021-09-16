@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./page-login/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <title>تسجيل دخول </title>
+</head>
+<body>
+    <img class="employee" src="./page-login/employee.png" alt="logo">
+    <form action=".php" target="_blank" method="POST">
+        
+        <h2>Staff Login</h2>
+      <div class="box-input">
+      <div  class="username"><label for="email">Username</label>
+        <!-- <span class="profile"><img  src="profile.png"></span> -->
+        <input  id="email" type="email" placeholder="example@gmail.com" required  name="email" >
+    </div>
+        <div class="pass">
+         <label for="pass">password</label>
+        <input id="pass" for="password" required type="password" placeholder="password" name="pass" >
+    </div> </div>
+    <!-- the radio the manager -->
+    <div class="radio">
+        <input id="mr" type="radio" name="Administration" required  value="manger">
+        <label for="mr">The Manager </label>
+        <!-- radrio the staff -->
+        <input id="staff" type="radio" name="Administration" required value="staff" >
+        <label for="staff"> The Staff </label></div>
+        <!-- end the staff -->
+       <div class="login"> <input type="submit" value="login" ></div> 
+    
+    </form>
+</body>
+</html>
