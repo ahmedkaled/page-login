@@ -60,11 +60,13 @@ h2 {
     font-weight: 700;
     color:white;
 }
+/* text input */
 .box-input {
     margin: 9%;
     margin-left: 13%;
     margin-bottom: 1%;
 }
+/* all input text and radio and login */
 div input {
     padding: 7px;
     margin: 10px;
@@ -72,7 +74,7 @@ div input {
     border: 2px solid rgba(238, 219, 133, 0.479);
 }
 
-
+/* label */
 label {
     padding: 5px;
     font-weight: 400  ;
@@ -102,9 +104,9 @@ input::placeholder {
     color: white;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:320px)  {
     form {
-         width: 75%;
+        width: 75%;
     }
     .box-input {
         margin: 3%;
@@ -131,7 +133,7 @@ input::placeholder {
 
 @media screen and (min-width:320px) and (max-width:745px)  {
     form {
-      width: 85%;
+        width: 85%;
     }
     .employee {
         left: 40.5%;
@@ -141,12 +143,12 @@ input::placeholder {
     }
 }
 
-@media screen and (min-width:360px) {
+@media screen and (max-width:360px) {
     .radio {
         
         left:5%;
     }
-   
+
 }
 @media screen and (min-width:410px) and (max-width:800px) {
     .radio {
@@ -155,7 +157,22 @@ input::placeholder {
     }
     .box-input {
         margin-left: 25%;
+    }
+}
 
+@media screen and (min-width:746px) and (max-width:1024px) {
 
+    .employee {
+        left: 45.5%;
+    }
+    form {
+        width: 50%;
+
+    }
+    .box-input {
+        margin-left: 20%;
+    }
+    .radio {
+        left: 13%;
     }
 }
