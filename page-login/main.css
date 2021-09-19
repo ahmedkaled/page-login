@@ -114,6 +114,7 @@ input::placeholder {
     .employee {
         left: 39.5%;
     }
+    
    
 }
 
@@ -143,7 +144,7 @@ input::placeholder {
     }
 }
 
-@media screen and (max-width:360px) {
+@media screen and (min-width:360px) and (max-width:410px) {
     .radio {
         
         left:5%;
@@ -152,7 +153,7 @@ input::placeholder {
 }
 @media screen and (min-width:410px) and (max-width:800px) {
     .radio {
-        left:25%;
+        left:12%;
         
     }
     .box-input {
@@ -160,7 +161,7 @@ input::placeholder {
     }
 }
 
-@media screen and (min-width:746px) and (max-width:1024px) {
+@media screen and (min-width:746px) and (max-width:1000px) {
 
     .employee {
         left: 45.5%;
