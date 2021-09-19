@@ -184,7 +184,7 @@ input::placeholder {
 }
 @media screen and (min-width:300px) and (max-width:400px) {
     .radio {
-        left: -1px;
+        left: 5%;
 
     }
     .box-input {
