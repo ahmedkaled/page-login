@@ -177,3 +177,12 @@ input::placeholder {
         left: 13%;
     }
 }
+@media screen and (min-width:300px) and (max-width:400px) {
+    .radio {
+        left: -1px;
+
+    }
+    .box-input {
+        margin: 9%;
+    }
+}
